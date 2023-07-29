@@ -63,9 +63,9 @@ function BlogSwiper(
 
         >
             {
-                blogs?.data?.map((item, index) =>
+               dataPortfolio?.map((item, index) =>
                     <SwiperSlide key={index}>
-                        <BlogItem portoDetails={item.attributes} textButton="Load More" parallaxImage={parallaxImage}
+                        <BlogItem portoDetails={item} textButton="Load More" parallaxImage={parallaxImage}
                                   metaData={hideMetaData} parallaxContent={parallaxContent} />
                     </SwiperSlide>)
             }

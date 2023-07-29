@@ -44,7 +44,7 @@ function BlogItem({portoDetails, textButton, imageOnly, className, parallaxConte
                  ref={ref} {...parallaxContent}>
                 <div className="box-meta">
                     <div className="entry-date">
-                        <span className="author">{portoDetails.author}</span>
+                        <span className="author">{portoDetails?.author}</span>
                         <a href="#">{portoDetails.date}</a>
                     </div>
                 </div>
